@@ -1,0 +1,185 @@
+html{height: 100%;}
+body{
+    background-color: hsl(27, 30%, 15%) !important;
+    font-family: 'Montserrat', sans-serif !important;
+    color: hsl(27, 0%, 89%) !important;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+.link-contato{
+    color: #E2AE70;
+    text-decoration: none;
+    font-weight: 700;
+}
+.link-contato:hover {
+    color: rgb(227, 227, 227);
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.navbar{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: hsl(27, 20%, 10%) !important;
+}
+.nav-item{
+    font-size: 1.4rem;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    color: hsl(27, 0%, 89%) !important;
+}
+.container{
+    width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel{
+    width: 85% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px !important;
+}
+/* .dropdown-item{
+    background-color: hsl(27, 20%, 10%) !important;
+    color: hsl(27, 0%, 89%) !important;
+} */
+.img-card{
+    width: 300px;
+    align-items: center;
+}
+.img-profile{
+    width: 200px;
+}
+.separate{
+    width: 90%;
+    border-bottom: 2px solid #E2AE70;
+    margin: 20px auto;
+}
+.card-integer{
+    background-image: linear-gradient(to right,hsl(27, 20%, 10%), hsl(27, 30%, 15%));
+    padding: 4px;
+    margin: 20px;
+}
+.bio{
+    width: 100%;
+    flex: auto;
+}
+h4{
+    font-weight: 500;
+}
+.img-autor{
+    width: 300px;
+    padding: 15px;
+}
+.breadcrumb-item{
+    color: #E2AE70 !important;
+}
+.link-bread{
+    text-decoration: none;
+    color: #d0d0d0;
+}
+.link-bread:hover {
+    text-decoration: none;
+    color: #9e9e9e;
+}
+.btn{
+    color: #E2AE70 !important;
+    border: 1px solid #E2AE70 !important;
+}
+.btn:hover {
+    background-color: #E2AE70 !important;
+    color: hsl(27, 30%, 15%) !important;
+    border: 1px solid #E2AE70 !important;
+    font-weight: 700 !important;
+}
+.modal-content{
+    background-color: hsl(27, 30%, 15%) !important;
+}
+#myFooter {
+    margin-top: auto !important;
+}
+#myFooter .container {
+    text-align: center;
+}
+#myFooter .footer-copyright {
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+#myFooter ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+#myFooter a {
+    color: #777;
+    font-size: 18px;
+}
+#myFooter li {
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+#myFooter .footer-social {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: hsl(27, 20%, 10%) !important;
+}
+#myFooter .fa {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #d0d0d0;
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+#myFooter .fa-facebook:hover {
+    color: #2b55ff;
+}
+#myFooter .fa-facebook:focus {
+    color: #2b55ff;
+}
+#myFooter .fa-instagram:hover {
+    color: purple;
+}
+#myFooter .fa-instagram:focus {
+    color: purple;
+}
+#myFooter .fa-youtube:hover {
+    color: red;
+}
+#myFooter .fa-youtube:focus {
+    color: red;
+}
+#myFooter .fa-twitter:hover {
+    color: #00aced;
+}
+#myFooter .fa-twitter:focus {
+    color: #00aced;
+}
+.content {
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    min-height: 200px;
+}
+#myFooter {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
